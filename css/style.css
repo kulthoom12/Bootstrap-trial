@@ -12,6 +12,6 @@ h2 {
 font-family: "DM serif display", serif;
 color: #184f63; /* dark blue */ }
 
-.sharp-corners sharp-corners * {
-    border-radius: 0; }
-
+.sharp-corners, .sharp-corners img, .card-img, .card-img-top {
+    border-radius: 0 !important; /* Apply to the card itself */
+}
