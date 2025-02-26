@@ -1,0 +1,38 @@
+/* Global styles */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
+
+body {
+    font-family: "poppins", sans-serif;
+    background-color:#a4c2d1; /* egg blue */
+}
+
+h1,
+h2 {
+font-family: "DM serif display", serif;
+color: #184f63; /* dark blue */ }
+
+
+/* 
+.sharp-corners, .sharp-corners img, {
+    border-radius: 0;
+}
+
+
+.card-img, .card-img-top {
+    border-radius: 0; 
+} */
+
+#sharp {
+    border-radius: 0;
+}
+
+.custom-buttons {
+    background-color:rgba(0, 0, 255, 0.627);
+    border: rgba(0, 0, 255, 0.627);
+}
+
+.custom-button hoover {
+    background-color:#1d6d8a;
+    border:#1d6d8a;
+}
